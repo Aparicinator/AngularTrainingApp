@@ -1,5 +1,5 @@
-import { State, initialState } from './todo-list.state';
-import { TodoListActionTypes, TodoListActions } from './todo-list.actions';
+import { State, initialState } from '@state/todo-list/todo-list.state';
+import { TodoListActionTypes, TodoListActions } from '@state/todo-list/todo-list.actions';
 
 export function todoListReducer(state = initialState, action: TodoListActions): State {
     switch (action.type) {
