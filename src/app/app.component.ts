@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { environment } from '@env/environment';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tasteful-angular';
+  constructor() {
+    console.log({ environment });
+  }
 }
