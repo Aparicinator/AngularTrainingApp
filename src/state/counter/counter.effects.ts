@@ -5,7 +5,7 @@ import { catchError, map, mergeMap } from 'rxjs/operators';
 import { Action } from '@ngrx/store';
 import { Actions, Effect, ofType } from '@ngrx/effects';
 
-import { CounterActionTypes } from './counter.actions';
+import { CounterActionTypes } from '@state/counter/counter.actions';
 
 @Injectable()
 export class CounterEffects {
