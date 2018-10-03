@@ -8,6 +8,9 @@
       ],
       "@env/*": [
         "environments/*"
+      ],
+      "@state/*": [
+        "state/*"
       ]
     },
     "outDir": "./dist/out-tsc",
